@@ -1,0 +1,37 @@
+{"part1": [], "cuecard": {"id": "e18074ac-9d87-4ecc-b6be-ff8f61986faf", "cue_card": "Describe a family member you admire.", "bullets": ["Who this person is", "How you know this person", "What this person is like", "Why you admire this person"], "answer": ""}}
+
+{
+    "part1": [
+    {
+      "id": "uuidpertanyaan1wherepart=1",
+      "question": "Do you prefer mornings or evenings?",
+      "answer": "I prefer mornings because I feel fresh and focused. I enjoy starting my day with a clear plan, so I can tackle tasks efficiently before noon."
+    },
+    {
+      "id": "uuidpertanyaan2wherepart=1",
+      "question": "What do you do in your free time?",
+      "answer": "In my free time, I read short articles because they broaden my knowledge. I also go for walks, as they help me relax and clear my mind after classes."
+    },
+    {
+      "id": "uuidpertanyaan3wherepart=1",
+      "question": "What kind of music do you enjoy?",
+      "answer": "I enjoy acoustic music because it’s calming and soulful. For example, I listen to it while studying, as it helps me stay focused and relaxed."
+    },
+    {
+      "id": "uuidpertanyaan4wherepart=1",
+      "question": "Do you like to cook?",
+      "answer": "Yes, I love cooking simple dishes like stir-fries or soups because it’s relaxing. I also enjoy experimenting with new flavors, which makes every meal exciting."
+    }]
+   "part2": [
+    {
+      "id": "uuidpertanyaan1dariwherepart=2",
+      "cue_card": "Describe a time when you helped someone.",
+      "bullets": [
+        "Who you helped",
+        "How you helped them",
+        "Why you helped them",
+        "How you felt about it"
+      ],
+      "answer": "At first, I helped my elderly neighbor, Mrs. Lani, who lived alone and struggled significantly with mobility after a minor fall, which made her very isolated. Because her large yard had become unmanageable and potentially dangerous due to overgrown patches, I offered to mow her lawn every weekend for a month and to meticulously trim the overgrown bushes around her pathway. Then, I started helping with small but crucial weekly errands, such as buying groceries from the distant market and picking up her regular medication, so she didn’t need to walk far or rely on expensive delivery services. After that, I coordinated with another neighbor to purchase and install a simple, sturdy handrail by her front steps. I helped her because I noticed she often hesitated, or even stumbled, on the stairs, and I felt a strong sense of responsibility as an active and capable member of the community to ensure her safety. Moreover, my parents instilled in me the value that small acts of maintenance and kindness can prevent much bigger, costly problems, so it felt completely natural and necessary to step in proactively. As a result, her home became substantially safer and more welcoming, and she seemed noticeably more relaxed and cheerful. In the end, I felt genuinely grateful and incredibly proud, since the experience vividly reminded me that practical, sustained help can profoundly improve someone’s quality of life and strengthen neighborhood bonds."
+    }]
+}

@@ -2,10 +2,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend_app.routes import sessions
+# HAPUS: sessions
+from backend_app.routes import topics, asr
+
 from backend_app.db.session import engine
 from backend_app.db.base import Base
-from backend_app.db import models_base  # noqa: F401  # penting untuk register tabel
+from backend_app.db import models_base  # noqa: F401  # register tabel
 
 app = FastAPI(title="IELTS Speaking Backend", version="0.1.0")
 
@@ -21,11 +23,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(sessions.router)
+# HAPUS: app.include_router(sessions.router)
 
 @app.on_event("startup")
 def on_startup():
-    # Buat tabel otomatis saat app start (sebelum pakai Alembic)
+    # Buat tabel otomatis
     Base.metadata.create_all(bind=engine)
 
 @app.get("/health")
@@ -34,4 +36,8 @@ def health():
 
 @app.get("/")
 def root():
-    return {"message": "IELTS Backend API is running successfully 🚀"}
+    return {"message": "IELTS Backend API is running successfully"}
+
+# ROUTES YANG DIPAKAI
+app.include_router(topics.router)
+app.include_router(asr.router)
